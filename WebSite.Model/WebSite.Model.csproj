@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB6C3FCE-8D15-4B7C-BE64-A366208073D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSite.Model</RootNamespace>
+    <AssemblyName>WebSite.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mod_Accesstoken.cs" />
+    <Compile Include="Mod_Advertisement.cs" />
+    <Compile Include="Mod_AlbumImage.cs" />
+    <Compile Include="Mod_AlbumType.cs" />
+    <Compile Include="Mod_Baidu_IP.cs" />
+    <Compile Include="Mod_Admin_Log.cs" />
+    <Compile Include="Mod_Admin_Menu.cs" />
+    <Compile Include="Mod_Admin_Role.cs" />
+    <Compile Include="Mod_Admin_User.cs" />
+    <Compile Include="Mod_Admin_WebSite.cs" />
+    <Compile Include="Mod_BaseType.cs" />
+    <Compile Include="Mod_BlessComment.cs" />
+    <Compile Include="Mod_BuddhistBook.cs" />
+    <Compile Include="Mod_BuddhistBookUser.cs" />
+    <Compile Include="Mod_CityPartner.cs" />
+    <Compile Include="Mod_Code.cs" />
+    <Compile Include="Mod_CodeDetail.cs" />
+    <Compile Include="Mod_Collection.cs" />
+    <Compile Include="Mod_Coupon.cs" />
+    <Compile Include="Mod_CustomType.cs" />
+    <Compile Include="Mod_ETRelation.cs" />
+    <Compile Include="Mod_Fabulous.cs" />
+    <Compile Include="Mod_Follow.cs" />
+    <Compile Include="Mod_FreeBroker.cs" />
+    <Compile Include="Mod_FreeBrokerInvitationDetail.cs" />
+    <Compile Include="Mod_FreeBrokerInvitationLevel.cs" />
+    <Compile Include="Mod_FreeBrokerLevel.cs" />
+    <Compile Include="Mod_FreeBrokerOrder.cs" />
+    <Compile Include="Mod_FreeBrokerOrderDetal.cs" />
+    <Compile Include="Mod_FreeBrokerRefund.cs" />
+    <Compile Include="Mod_FreeBrokerWallet.cs" />
+    <Compile Include="Mod_HelpCenter.cs" />
+    <Compile Include="Mod_HelpType.cs" />
+    <Compile Include="Mod_Information.cs" />
+    <Compile Include="Mod_Integral.cs" />
+    <Compile Include="Mod_IntegralComment.cs" />
+    <Compile Include="Mod_IntegralCommentImage.cs" />
+    <Compile Include="Mod_IntegralRecharge.cs" />
+    <Compile Include="Mod_IntegralReNews.cs" />
+    <Compile Include="Mod_Jsapiticket.cs" />
+    <Compile Include="Mod_Link.cs" />
+    <Compile Include="Mod_LiveUser.cs" />
+    <Compile Include="Mod_Logistics.cs" />
+    <Compile Include="Mod_LogisticsRegion.cs" />
+    <Compile Include="Mod_LuckDrawDetail.cs" />
+    <Compile Include="Mod_LuckDrawOrder.cs" />
+    <Compile Include="Mod_LuckDrawProducts.cs" />
+    <Compile Include="Mod_LuckDrawProductsType.cs" />
+    <Compile Include="Mod_LuckDrawType.cs" />
+    <Compile Include="Mod_MallShop.cs" />
+    <Compile Include="Mod_MallShopBondOder.cs" />
+    <Compile Include="Mod_MallShopData.cs" />
+    <Compile Include="Mod_MallShopUser.cs" />
+    <Compile Include="Mod_MarketIntegral.cs" />
+    <Compile Include="Mod_MarketIntegralOrder.cs" />
+    <Compile Include="Mod_Message.cs" />
+    <Compile Include="Mod_MessageTable.cs" />
+    <Compile Include="Mod_News.cs" />
+    <Compile Include="Mod_NewsAction.cs" />
+    <Compile Include="Mod_NewsActionAttr.cs" />
+    <Compile Include="Mod_NewsActionDetail.cs" />
+    <Compile Include="Mod_NewsComment.cs" />
+    <Compile Include="Mod_NewsFavorite.cs" />
+    <Compile Include="Mod_Order.cs" />
+    <Compile Include="Mod_OrderAction.cs" />
+    <Compile Include="Mod_OrderActionIntegral.cs" />
+    <Compile Include="Mod_OrderDetail.cs" />
+    <Compile Include="Mod_OrderDetailIntegral.cs" />
+    <Compile Include="Mod_OrderIntegral.cs" />
+    <Compile Include="Mod_PageStatistical.cs" />
+    <Compile Include="Mod_PageStatisticalType.cs" />
+    <Compile Include="Mod_Payment.cs" />
+    <Compile Include="Mod_PicList.cs" />
+    <Compile Include="Mod_Product.cs" />
+    <Compile Include="Mod_ProductAttr.cs" />
+    <Compile Include="Mod_ProductAttrValue.cs" />
+    <Compile Include="Mod_ProductBrand.cs" />
+    <Compile Include="Mod_ProductColourType.cs" />
+    <Compile Include="Mod_ProductComment.cs" />
+    <Compile Include="Mod_ProductSku.cs" />
+    <Compile Include="Mod_ProductSpec.cs" />
+    <Compile Include="Mod_ProductSpecConfig.cs" />
+    <Compile Include="Mod_ProductType.cs" />
+    <Compile Include="Mod_Recruit.cs" />
+    <Compile Include="Mod_RedEnvelopes.cs" />
+    <Compile Include="Mod_RedEnvelopesDetails.cs" />
+    <Compile Include="Mod_RedEnvelopesOrder.cs" />
+    <Compile Include="Mod_Region.cs" />
+    <Compile Include="Mod_Product_Spec_Json.cs" />
+    <Compile Include="Mod_Regionalpartner.cs" />
+    <Compile Include="Mod_Report.cs" />
+    <Compile Include="Mod_Share.cs" />
+    <Compile Include="Mod_ShopAppointment.cs" />
+    <Compile Include="Mod_ShopType.cs" />
+    <Compile Include="Mod_Spec.cs" />
+    <Compile Include="Mod_SpecValue.cs" />
+    <Compile Include="Mod_Statistics.cs" />
+    <Compile Include="Mod_StatisticsButton.cs" />
+    <Compile Include="Mod_StatisticsMoney.cs" />
+    <Compile Include="Mod_Support.cs" />
+    <Compile Include="Mod_SupportComment.cs" />
+    <Compile Include="Mod_SupportImage.cs" />
+    <Compile Include="Mod_SupportOrder.cs" />
+    <Compile Include="Mod_SupportProduct.cs" />
+    <Compile Include="Mod_SupportTemple.cs" />
+    <Compile Include="Mod_Template.cs" />
+    <Compile Include="Mod_TemplateChoice.cs" />
+    <Compile Include="Mod_User.cs" />
+    <Compile Include="Mod_UserAddress.cs" />
+    <Compile Include="Mod_UserApply.cs" />
+    <Compile Include="Mod_UserAttend.cs" />
+    <Compile Include="Mod_UserAuth.cs" />
+    <Compile Include="Mod_UserAuthentication.cs" />
+    <Compile Include="Mod_UserBank.cs" />
+    <Compile Include="Mod_UserBanner.cs" />
+    <Compile Include="Mod_UserCart.cs" />
+    <Compile Include="Mod_UserCartIntegral.cs" />
+    <Compile Include="Mod_UserCate.cs" />
+    <Compile Include="Mod_UserDetail.cs" />
+    <Compile Include="Mod_UserExtend.cs" />
+    <Compile Include="Mod_UserFavorite.cs" />
+    <Compile Include="Mod_UserHistory.cs" />
+    <Compile Include="Mod_UserLevel.cs" />
+    <Compile Include="Mod_UserLog.cs" />
+    <Compile Include="Mod_UserMessage.cs" />
+    <Compile Include="Mod_UserOauth.cs" />
+    <Compile Include="Mod_UserOauthConfig.cs" />
+    <Compile Include="Mod_UserWallet.cs" />
+    <Compile Include="Mod_UserWalletTransfer.cs" />
+    <Compile Include="Mod_Vegetarian.cs" />
+    <Compile Include="Mod_VegetarianAuthen.cs" />
+    <Compile Include="Mod_Wechat.cs" />
+    <Compile Include="Mod_Withdraw.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebSite.Common\WebSite.Common.csproj">
+      <Project>{DB14DADF-77B9-4B3D-B802-8FD635F41116}</Project>
+      <Name>WebSite.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

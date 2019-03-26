@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2929FB5E-7273-42AA-BD15-9D5B11DD22F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSite.BLL</RootNamespace>
+    <AssemblyName>WebSite.BLL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bll_Admin_Log.cs" />
+    <Compile Include="Bll_Admin_Menu.cs" />
+    <Compile Include="Bll_Admin_Role.cs" />
+    <Compile Include="Bll_Admin_User.cs" />
+    <Compile Include="Bll_Admin_WebSite.cs" />
+    <Compile Include="Bll_Advertisement.cs" />
+    <Compile Include="Bll_AlbumImage.cs" />
+    <Compile Include="Bll_AlbumType.cs" />
+    <Compile Include="Bll_BaseType.cs" />
+    <Compile Include="Bll_BlessComment.cs" />
+    <Compile Include="Bll_BuddhistBook.cs" />
+    <Compile Include="Bll_BuddhistBookUser.cs" />
+    <Compile Include="Bll_CityPartner.cs" />
+    <Compile Include="Bll_Code.cs" />
+    <Compile Include="Bll_CodeDetail.cs" />
+    <Compile Include="Bll_Collection.cs" />
+    <Compile Include="Bll_Coupon.cs" />
+    <Compile Include="Bll_CustomType.cs" />
+    <Compile Include="Bll_ETRelation.cs" />
+    <Compile Include="Bll_Fabulous.cs" />
+    <Compile Include="Bll_Follow.cs" />
+    <Compile Include="Bll_FreeBroker.cs" />
+    <Compile Include="Bll_FreeBrokerInvitationDetail.cs" />
+    <Compile Include="Bll_FreeBrokerInvitationLevel.cs" />
+    <Compile Include="Bll_FreeBrokerLevel.cs" />
+    <Compile Include="Bll_FreeBrokerOrder.cs" />
+    <Compile Include="Bll_FreeBrokerOrderDetal.cs" />
+    <Compile Include="Bll_FreeBrokerRefund.cs" />
+    <Compile Include="Bll_FreeBrokerWallet.cs" />
+    <Compile Include="Bll_HelpCenter.cs" />
+    <Compile Include="Bll_HelpType.cs" />
+    <Compile Include="Bll_Information.cs" />
+    <Compile Include="Bll_Integral.cs" />
+    <Compile Include="Bll_IntegralComment.cs" />
+    <Compile Include="Bll_IntegralCommentImage.cs" />
+    <Compile Include="Bll_IntegralRecharge.cs" />
+    <Compile Include="Bll_IntegralReNews.cs" />
+    <Compile Include="Bll_Link.cs" />
+    <Compile Include="Bll_LiveUser.cs" />
+    <Compile Include="Bll_Logistics.cs" />
+    <Compile Include="Bll_LogisticsRegion.cs" />
+    <Compile Include="Bll_LuckDrawDetail.cs" />
+    <Compile Include="Bll_LuckDrawOrder.cs" />
+    <Compile Include="Bll_LuckDrawProducts.cs" />
+    <Compile Include="Bll_LuckDrawProductsType.cs" />
+    <Compile Include="Bll_LuckDrawType.cs" />
+    <Compile Include="Bll_MallShop.cs" />
+    <Compile Include="Bll_MallShopBondOder.cs" />
+    <Compile Include="Bll_MallShopData.cs" />
+    <Compile Include="Bll_MallShopUser.cs" />
+    <Compile Include="Bll_MarketIntegral.cs" />
+    <Compile Include="Bll_MarketIntegralOrder.cs" />
+    <Compile Include="Bll_Message.cs" />
+    <Compile Include="Bll_MessageTable.cs" />
+    <Compile Include="Bll_News.cs" />
+    <Compile Include="Bll_NewsAction.cs" />
+    <Compile Include="Bll_NewsActionAttr.cs" />
+    <Compile Include="Bll_NewsActionDetail.cs" />
+    <Compile Include="Bll_NewsComment.cs" />
+    <Compile Include="Bll_NewsFavorite.cs" />
+    <Compile Include="Bll_Order.cs" />
+    <Compile Include="Bll_OrderAction.cs" />
+    <Compile Include="Bll_OrderActionIntegral.cs" />
+    <Compile Include="Bll_OrderDetail.cs" />
+    <Compile Include="Bll_OrderDetailIntegral.cs" />
+    <Compile Include="Bll_OrderIntegral.cs" />
+    <Compile Include="Bll_PageStatistical.cs" />
+    <Compile Include="Bll_PageStatisticalType.cs" />
+    <Compile Include="Bll_Payment.cs" />
+    <Compile Include="Bll_PicList.cs" />
+    <Compile Include="Bll_Product.cs" />
+    <Compile Include="Bll_ProductAttr.cs" />
+    <Compile Include="Bll_ProductAttrValue.cs" />
+    <Compile Include="Bll_ProductBrand.cs" />
+    <Compile Include="Bll_ProductColourType.cs" />
+    <Compile Include="Bll_ProductComment.cs" />
+    <Compile Include="Bll_ProductSku.cs" />
+    <Compile Include="Bll_ProductSpec.cs" />
+    <Compile Include="Bll_ProductSpecConfig.cs" />
+    <Compile Include="Bll_ProductType.cs" />
+    <Compile Include="Bll_Recruit.cs" />
+    <Compile Include="Bll_RedEnvelopes.cs" />
+    <Compile Include="Bll_RedEnvelopesDetails.cs" />
+    <Compile Include="Bll_RedEnvelopesOrder.cs" />
+    <Compile Include="Bll_Region.cs" />
+    <Compile Include="Bll_Regionalpartner.cs" />
+    <Compile Include="Bll_Report.cs" />
+    <Compile Include="Bll_Share.cs" />
+    <Compile Include="Bll_ShopAppointment.cs" />
+    <Compile Include="Bll_ShopType.cs" />
+    <Compile Include="Bll_Spec.cs" />
+    <Compile Include="Bll_SpecValue.cs" />
+    <Compile Include="Bll_Statistics.cs" />
+    <Compile Include="Bll_StatisticsButton.cs" />
+    <Compile Include="Bll_StatisticsMoney.cs" />
+    <Compile Include="Bll_Support.cs" />
+    <Compile Include="Bll_SupportComment.cs" />
+    <Compile Include="Bll_SupportImage.cs" />
+    <Compile Include="Bll_SupportOrder.cs" />
+    <Compile Include="Bll_SupportProduct.cs" />
+    <Compile Include="Bll_SupportTemple.cs" />
+    <Compile Include="Bll_Template.cs" />
+    <Compile Include="Bll_TemplateChoice.cs" />
+    <Compile Include="Bll_User.cs" />
+    <Compile Include="Bll_UserAddress.cs" />
+    <Compile Include="Bll_UserApply.cs" />
+    <Compile Include="Bll_UserAttend.cs" />
+    <Compile Include="Bll_UserAuth.cs" />
+    <Compile Include="Bll_UserAuthentication.cs" />
+    <Compile Include="Bll_UserBank.cs" />
+    <Compile Include="Bll_UserBanner.cs" />
+    <Compile Include="Bll_UserCart.cs" />
+    <Compile Include="Bll_UserCartIntegral.cs" />
+    <Compile Include="Bll_UserCate.cs" />
+    <Compile Include="Bll_UserDetail.cs" />
+    <Compile Include="Bll_UserExtend.cs" />
+    <Compile Include="Bll_UserFavorite.cs" />
+    <Compile Include="Bll_UserHistory.cs" />
+    <Compile Include="Bll_UserLevel.cs" />
+    <Compile Include="Bll_UserLog.cs" />
+    <Compile Include="Bll_UserMessage.cs" />
+    <Compile Include="Bll_UserOauth.cs" />
+    <Compile Include="Bll_UserOauthConfig.cs" />
+    <Compile Include="Bll_UserWallet.cs" />
+    <Compile Include="Bll_UserWalletTransfer.cs" />
+    <Compile Include="Bll_Vegetarian.cs" />
+    <Compile Include="Bll_VegetarianAuthen.cs" />
+    <Compile Include="Bll_Wechat.cs" />
+    <Compile Include="Bll_Withdraw.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebSite.Common\WebSite.Common.csproj">
+      <Project>{DB14DADF-77B9-4B3D-B802-8FD635F41116}</Project>
+      <Name>WebSite.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSite.DAL\WebSite.DAL.csproj">
+      <Project>{0ECAEEE9-875E-4214-8F56-3767C58F1588}</Project>
+      <Name>WebSite.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSite.Model\WebSite.Model.csproj">
+      <Project>{CB6C3FCE-8D15-4B7C-BE64-A366208073D7}</Project>
+      <Name>WebSite.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

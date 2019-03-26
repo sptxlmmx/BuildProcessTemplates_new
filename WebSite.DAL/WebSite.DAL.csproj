@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0ECAEEE9-875E-4214-8F56-3767C58F1588}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSite.DAL</RootNamespace>
+    <AssemblyName>WebSite.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dal_Admin_Log.cs" />
+    <Compile Include="Dal_Admin_Menu.cs" />
+    <Compile Include="Dal_Admin_Role.cs" />
+    <Compile Include="Dal_Admin_User.cs" />
+    <Compile Include="Dal_Admin_WebSite.cs" />
+    <Compile Include="Dal_Advertisement.cs" />
+    <Compile Include="Dal_AlbumImage.cs" />
+    <Compile Include="Dal_AlbumType.cs" />
+    <Compile Include="Dal_BaseType.cs" />
+    <Compile Include="Dal_BlessComment.cs" />
+    <Compile Include="Dal_BuddhistBook.cs" />
+    <Compile Include="Dal_BuddhistBookUser.cs" />
+    <Compile Include="Dal_CityPartner.cs" />
+    <Compile Include="Dal_Code.cs" />
+    <Compile Include="Dal_CodeDetail.cs" />
+    <Compile Include="Dal_Collection.cs" />
+    <Compile Include="Dal_Coupon.cs" />
+    <Compile Include="Dal_CustomType.cs" />
+    <Compile Include="Dal_ETRelation.cs" />
+    <Compile Include="Dal_Fabulous.cs" />
+    <Compile Include="Dal_Follow.cs" />
+    <Compile Include="Dal_FreeBroker.cs" />
+    <Compile Include="Dal_FreeBrokerInvitationDetail.cs" />
+    <Compile Include="Dal_FreeBrokerInvitationLevel.cs" />
+    <Compile Include="Dal_FreeBrokerLevel.cs" />
+    <Compile Include="Dal_FreeBrokerOrder.cs" />
+    <Compile Include="Dal_FreeBrokerOrderDetal.cs" />
+    <Compile Include="Dal_FreeBrokerRefund.cs" />
+    <Compile Include="Dal_FreeBrokerWallet.cs" />
+    <Compile Include="Dal_HelpCenter.cs" />
+    <Compile Include="Dal_HelpType.cs" />
+    <Compile Include="Dal_Information.cs" />
+    <Compile Include="Dal_Integral.cs" />
+    <Compile Include="Dal_IntegralComment.cs" />
+    <Compile Include="Dal_IntegralCommentImage.cs" />
+    <Compile Include="Dal_IntegralRecharge.cs" />
+    <Compile Include="Dal_IntegralReNews.cs" />
+    <Compile Include="Dal_Link.cs" />
+    <Compile Include="Dal_LiveUser.cs" />
+    <Compile Include="Dal_Logistics.cs" />
+    <Compile Include="Dal_LogisticsRegion.cs" />
+    <Compile Include="Dal_LuckDrawDetail.cs" />
+    <Compile Include="Dal_LuckDrawOrder.cs" />
+    <Compile Include="Dal_LuckDrawProducts.cs" />
+    <Compile Include="Dal_LuckDrawProductsType.cs" />
+    <Compile Include="Dal_LuckDrawType.cs" />
+    <Compile Include="Dal_MallShop.cs" />
+    <Compile Include="Dal_MallShopBondOder.cs" />
+    <Compile Include="Dal_MallShopData.cs" />
+    <Compile Include="Dal_MallShopUser.cs" />
+    <Compile Include="Dal_MarketIntegral.cs" />
+    <Compile Include="Dal_MarketIntegralOrder.cs" />
+    <Compile Include="Dal_Message.cs" />
+    <Compile Include="Dal_MessageTable.cs" />
+    <Compile Include="Dal_News.cs" />
+    <Compile Include="Dal_NewsAction.cs" />
+    <Compile Include="Dal_NewsActionAttr.cs" />
+    <Compile Include="Dal_NewsActionDetail.cs" />
+    <Compile Include="Dal_NewsComment.cs" />
+    <Compile Include="Dal_NewsFavorite.cs" />
+    <Compile Include="Dal_Order.cs" />
+    <Compile Include="Dal_OrderAction.cs" />
+    <Compile Include="Dal_OrderActionIntegral.cs" />
+    <Compile Include="Dal_OrderDetail.cs" />
+    <Compile Include="Dal_OrderDetailIntegral.cs" />
+    <Compile Include="Dal_OrderIntegral.cs" />
+    <Compile Include="Dal_PageStatistical.cs" />
+    <Compile Include="Dal_PageStatisticalType.cs" />
+    <Compile Include="Dal_Payment.cs" />
+    <Compile Include="Dal_PicList.cs" />
+    <Compile Include="Dal_Product.cs" />
+    <Compile Include="Dal_ProductAttr.cs" />
+    <Compile Include="Dal_ProductAttrValue.cs" />
+    <Compile Include="Dal_ProductBrand.cs" />
+    <Compile Include="Dal_ProductColourType.cs" />
+    <Compile Include="Dal_ProductComment.cs" />
+    <Compile Include="Dal_ProductSku.cs" />
+    <Compile Include="Dal_ProductSpec.cs" />
+    <Compile Include="Dal_ProductSpecConfig.cs" />
+    <Compile Include="Dal_ProductType.cs" />
+    <Compile Include="Dal_Recruit.cs" />
+    <Compile Include="Dal_RedEnvelopes.cs" />
+    <Compile Include="Dal_RedEnvelopesDetails.cs" />
+    <Compile Include="Dal_RedEnvelopesOrder.cs" />
+    <Compile Include="Dal_Region.cs" />
+    <Compile Include="Dal_Regionalpartner.cs" />
+    <Compile Include="Dal_Report.cs" />
+    <Compile Include="Dal_Share.cs" />
+    <Compile Include="Dal_ShopAppointment.cs" />
+    <Compile Include="Dal_ShopType.cs" />
+    <Compile Include="Dal_Spec.cs" />
+    <Compile Include="Dal_SpecValue.cs" />
+    <Compile Include="Dal_Statistics.cs" />
+    <Compile Include="Dal_StatisticsButton.cs" />
+    <Compile Include="Dal_StatisticsMoney.cs" />
+    <Compile Include="Dal_Support.cs" />
+    <Compile Include="Dal_SupportComment.cs" />
+    <Compile Include="Dal_SupportImage.cs" />
+    <Compile Include="Dal_SupportOrder.cs" />
+    <Compile Include="Dal_SupportProduct.cs" />
+    <Compile Include="Dal_SupportTemple.cs" />
+    <Compile Include="Dal_Template.cs" />
+    <Compile Include="Dal_TemplateChoice.cs" />
+    <Compile Include="Dal_User.cs" />
+    <Compile Include="Dal_UserAddress.cs" />
+    <Compile Include="Dal_UserApply.cs" />
+    <Compile Include="Dal_UserAttend.cs" />
+    <Compile Include="Dal_UserAuth.cs" />
+    <Compile Include="Dal_UserAuthentication.cs" />
+    <Compile Include="Dal_UserBank.cs" />
+    <Compile Include="Dal_UserBanner.cs" />
+    <Compile Include="Dal_UserCart.cs" />
+    <Compile Include="Dal_UserCartIntegral.cs" />
+    <Compile Include="Dal_UserCate.cs" />
+    <Compile Include="Dal_UserDetail.cs" />
+    <Compile Include="Dal_UserExtend.cs" />
+    <Compile Include="Dal_UserFavorite.cs" />
+    <Compile Include="Dal_UserHistory.cs" />
+    <Compile Include="Dal_UserLevel.cs" />
+    <Compile Include="Dal_UserLog.cs" />
+    <Compile Include="Dal_UserMessage.cs" />
+    <Compile Include="Dal_UserOauth.cs" />
+    <Compile Include="Dal_UserOauthConfig.cs" />
+    <Compile Include="Dal_UserWallet.cs" />
+    <Compile Include="Dal_UserWalletTransfer.cs" />
+    <Compile Include="Dal_Vegetarian.cs" />
+    <Compile Include="Dal_VegetarianAuthen.cs" />
+    <Compile Include="Dal_Wechat.cs" />
+    <Compile Include="Dal_Withdraw.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebSite.Common\WebSite.Common.csproj">
+      <Project>{DB14DADF-77B9-4B3D-B802-8FD635F41116}</Project>
+      <Name>WebSite.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSite.DBUtility\WebSite.DBUtility.csproj">
+      <Project>{2A150B09-A596-493A-B79B-C0517C954017}</Project>
+      <Name>WebSite.DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSite.Model\WebSite.Model.csproj">
+      <Project>{CB6C3FCE-8D15-4B7C-BE64-A366208073D7}</Project>
+      <Name>WebSite.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
